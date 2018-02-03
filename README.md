@@ -1,5 +1,7 @@
 # launchpad-detector
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/chrisguttandin/launchpad-detector.svg)](https://greenkeeper.io/)
+
 **A little tool to detect connected Launchpads.**
 
 [![tests](https://img.shields.io/travis/chrisguttandin/launchpad-detector/master.svg?style=flat-square)](https://travis-ci.org/chrisguttandin/launchpad-detector)
