@@ -46,7 +46,9 @@ function group ({ inputs, outputs }) {
     }
 
     for (const [ , { manufacturer, name } ] of outputs) {
-        const index = devices.findIndex(({ input: { name: nm } }) => nm === name);
+        const index = devices
+            .filter(({ input }) => (input !== undefined))
+            .findIndex(({ input: { name: nm } }) => nm === name);
 
         if (index > -1) {
             devices[index] = Object.assign({ }, devices[index], { output: { manufacturer, name } });
