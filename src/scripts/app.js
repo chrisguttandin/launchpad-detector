@@ -61,7 +61,7 @@ function group ({ inputs, outputs }) {
 }
 
 function log (devicesAndTypes) {
-    const $connectedDevices = document.querySelector('#connected-devices');
+    const $connectedDevices = document.getElementById('connected-devices');
 
     $connectedDevices.innerText = '';
 
