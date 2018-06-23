@@ -13,6 +13,7 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
+                        plugins: [ 'transform-object-rest-spread' ],
                         presets: [ [ 'env', {
                             targets: {
                                 browsers: [
@@ -48,6 +49,7 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
+                        plugins: [ 'transform-object-rest-spread' ],
                         presets: [ [ 'env', {
                             targets: {
                                 browsers: [
