@@ -51,7 +51,7 @@ function group ({ inputs, outputs }) {
             .findIndex(({ input: { name: nm } }) => nm === name);
 
         if (index > -1) {
-            devices[index] = Object.assign({ }, devices[index], { output: { manufacturer, name } });
+            devices[index] = { ...devices[index], output: { manufacturer, name } };
         } else {
             devices.push({ output: { manufacturer, name } });
         }
