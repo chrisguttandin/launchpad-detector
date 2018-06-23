@@ -15,6 +15,7 @@
     "autoprefixer": "^8.6.3",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "commitizen": "^2.10.1",
     "cssnano": "^3.10.0",
