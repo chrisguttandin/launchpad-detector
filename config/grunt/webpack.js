@@ -13,8 +13,8 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        plugins: [ 'transform-object-rest-spread' ],
-                        presets: [ [ 'env', {
+                        plugins: [ '@babel/plugin-proposal-object-rest-spread' ],
+                        presets: [ [ '@babel/preset-env', {
                             targets: {
                                 browsers: [
                                     'last 2 Chrome versions',
@@ -49,8 +49,8 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        plugins: [ 'transform-object-rest-spread' ],
-                        presets: [ [ 'env', {
+                        plugins: [ '@babel/plugin-proposal-object-rest-spread' ],
+                        presets: [ [ '@babel/preset-env', {
                             targets: {
                                 browsers: [
                                     'last 2 Chrome versions',
