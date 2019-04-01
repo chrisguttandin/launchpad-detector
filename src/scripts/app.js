@@ -63,7 +63,7 @@ function group ({ inputs, outputs }) {
 function log (devicesAndTypes) {
     const $connectedDevices = document.getElementById('connected-devices');
 
-    $connectedDevices.innerText = '';
+    $connectedDevices.textContent = '';
 
     for (const { device, type } of devicesAndTypes) {
         const $br = document.createElement('br');
