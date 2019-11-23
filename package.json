@@ -11,7 +11,7 @@
   "description": "A little tool to detect connected Launchpads.",
   "devDependencies": {
     "@babel/core": "^7.7.4",
-    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
     "@babel/preset-env": "^7.7.1",
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-angular": "^8.2.0",
