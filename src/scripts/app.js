@@ -1,5 +1,5 @@
 const LAUNCHPAD_MINI_REGEX = /^Launchpad\sMini$/;
-const LAUNCHPAD_MK2_REGEX = /^Launchpad\sMK2(?:\s(?:[1-9])|(?:1[0-6]))?$/;
+const LAUNCHPAD_MK2_REGEX = /^Launchpad\sMK2(?:\s[1-9]|(?:1[0-6]))?$/;
 const LAUNCHPAD_PRO_REGEX = /^Launchpad\sPro\sStandalone\sPort|(?:MIDIIN2|MIDIOUT2)\s\(Launchpad\sPro\)$/;
 const LAUNCHPAD_S_REGEX = /^Launchpad\sS$/;
 
