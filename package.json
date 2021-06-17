@@ -37,12 +37,6 @@
         "webpack": "^5.39.0"
     },
     "homepage": "https://chrisguttandin.github.io/launchpad-detector",
-    "husky": {
-        "hooks": {
-            "commit-msg": "commitlint --edit --extends @commitlint/config-angular",
-            "pre-commit": "pretty-quick --config config/prettier/config.json --staged && grunt lint"
-        }
-    },
     "license": "MIT",
     "main": "src/index.html",
     "name": "launchpad-detector",
@@ -52,6 +46,7 @@
         "url": "https://github.com/chrisguttandin/launchpad-detector.git"
     },
     "scripts": {
+        "prepare": "husky install",
         "test": "grunt lint"
     },
     "version": "1.0.33"
