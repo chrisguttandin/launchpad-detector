@@ -11,7 +11,7 @@
     "description": "A little tool to detect connected Launchpads.",
     "devDependencies": {
         "@babel/core": "^7.23.7",
-        "@babel/preset-env": "^7.23.5",
+        "@babel/preset-env": "^7.23.8",
         "@commitlint/cli": "^17.8.0",
         "@commitlint/config-angular": "^17.8.0",
         "babel-loader": "^9.1.3",
